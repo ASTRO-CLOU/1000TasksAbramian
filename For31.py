@@ -1,9 +1,5 @@
-import math
 N = int(input())
-A = float(input())
-B = float(input())
-H = (B - A) / N
-print(H)
-for i in range(N + 1):
-    X = A + i * H
-    print(1 - math.sin(X))
+A = 2.0
+for i in range(N):
+    A = 2 + 1 / A
+    print(A)
